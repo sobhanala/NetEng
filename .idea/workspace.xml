@@ -5,15 +5,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53ec4872-89db-42cb-bd4a-59b9e23e1694" name="Changes" comment="git_init">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/ICommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/AddAuthorCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/AddBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/AddCartCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/AddCreditCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/AddReviewCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/AddUserCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/BorrowBookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/PurchaseCartCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/RemoveCartCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/SearchByAhthorCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/SearchByDateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/SearchByGenreCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/SearchByTitleCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/ShowAuthorDetailCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/ShowBookContentCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/ShowBookDetailCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/ShowBookReviewCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/ShowCartCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/ShowPurchasedBooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/ShowPurchesHistoryCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/commands/ShowUserDetailCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/exeptions/ShopException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/BookInCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/BookReviewShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/BookSearchData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/BorrowDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/Borrowdata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/BorrowedBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/PendPurches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/Purchase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/PurchaseItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/PurchaseRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/PurchaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/PurchasedBooksData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/Receipt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/models/UserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/services/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/services/ShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Business/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Infrastucure/JsonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Infrastucure/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/AddCreditDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/AddReviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/AddressDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/AuthorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/AuthornameDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/BookDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/BookTitleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/BorrowBookDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/CartDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/DateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/GenreDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/PersonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/PurchesDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Objects/UsernameDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Repositorys/AuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Repositorys/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Repositorys/InMemoryAuthorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Repositorys/InMemoryBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Repositorys/InMemoryReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Repositorys/InMemoryUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Repositorys/ReviewRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Repositorys/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/main/CommandRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +89,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2uUpPELGvwflkwQeNT40rrOOvQw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,11 +110,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Ca3",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Click/InternetEng/meowbook/src/main/java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Click\InternetEng\meowbook\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.main" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

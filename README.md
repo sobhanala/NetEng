@@ -1,4 +1,4 @@
-# NetEng â€” Java Project Starter
+# NetEng — Java Project Starter
 
 A Maven-based Java project with the artifact name `meowbook`. The current repository contains an entry point at `src/main/java/org/example/Main.java` and a minimal Maven configuration.
 
